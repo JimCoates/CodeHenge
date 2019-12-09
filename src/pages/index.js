@@ -5,7 +5,10 @@ import "../styles/style.scss"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import Hero from "../components/hero"
 
-const IndexPage = () => <Layout></Layout>
+const IndexPage = () => <Layout>
+  <Hero/>
+</Layout>
 
 export default IndexPage
