@@ -1,6 +1,8 @@
 @charset "utf-8";
 // If need, change your variables before importing Bulma
-$title-color: #ff0000;
+
+$subtitle-color: #79b837;
+
 @import "~bulma/bulma.sass";
 
 .logo {
@@ -15,4 +17,11 @@ $title-color: #ff0000;
   box-shadow: 0px 7px 24px -4px rgba(122, 122, 122, 0.54);
   padding-left: 2%;
   padding-right: 2%;
+  margin-bottom: 50px;
 }
+
+.add-top-margin{
+  margin-top: 5rem;
+}
+
+

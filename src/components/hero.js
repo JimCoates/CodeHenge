@@ -26,14 +26,24 @@ const Hero = () => {
 }`)
 
   return (
-    <ImageBackground fluid={image.sharp.fluid}>
-      <div className="">
-      <div className="p-grid">
-        <div className="p-col-6">
-          <h1>hi</h1>
+    <ImageBackground className="add-top-margin" fluid={image.sharp.fluid}>
+      <section className="hero is-medium">
+        <div className="hero-body">
+      <div className="container">
+      <div className="columns">
+        <div className="column is-half">
+          <div className='title is-1'>
+            A blog containing KSM career development projects
+          </div>
+          <div className="subtitle is-3">
+            With a focus on Jim's Mom
+          </div>
         </div>
+
       </div>
       </div>
+        </div>
+      </section>
     </ImageBackground>
   )
 }

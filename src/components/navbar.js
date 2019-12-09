@@ -5,31 +5,31 @@ import logo from "../images/Stonehenge1.png"
 
 const Navbar = () => {
   return (
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
+    <nav className="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div className="navbar-brand">
         <h1 className="title is-1 has-text-green"> Codehenge</h1>
 
         <a
           role="button"
-          class="navbar-burger burger"
+          className="navbar-burger burger"
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample"
         >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+          <span aria-hidden="true"/>
+          <span aria-hidden="true"/>
+          <span aria-hidden="true"/>
         </a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-end">
-          <div class="navbar-start">
-            <a class="navbar-item">Home</a>
+      <div id="navbarBasicExample" className="navbar-menu">
+        <div className="navbar-end">
+          <div className="navbar-start">
+            <a className="navbar-item">Home</a>
 
-            <a class="navbar-item">Projects</a>
-            <a class="navbar-item">Topics</a>
-            <a class="navbar-item">About</a>
+            <a className="navbar-item">Projects</a>
+            <a className="navbar-item">Topics</a>
+            <a className="navbar-item">About</a>
           </div>
         </div>
       </div>
