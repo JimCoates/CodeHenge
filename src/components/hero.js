@@ -6,7 +6,7 @@ import { graphql, useStaticQuery } from "gatsby"
 const ImageBackground = styled(BackgroundImage)`
 background-position: right top;
 background-size:50%;
-height: 90vh;
+height: 80vh;
 
 + * {
 margin-top: 0;
@@ -36,7 +36,7 @@ const Hero = () => {
             A blog containing KSM career development projects
           </div>
           <div className="subtitle is-3">
-            With a focus on Jim's Mom
+            With a focus on Springboot and React
           </div>
         </div>
 
