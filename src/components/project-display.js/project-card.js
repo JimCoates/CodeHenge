@@ -2,20 +2,19 @@ import React from "react"
 import temp from "../../images/stonehenge2.png"
 import ProjectHero from "./project-hero"
 
-const ProjectCard = () => {
+const ProjectCard = ({post}) => {
   return (
     <div class="card">
       <div class="card-image is-marginless">
         <figure class="image is-4x3">
-          <img src={temp} alt="Placeholder image" />
+          <img src={post.img} alt="Placeholder image" />
         </figure>
       </div>
       <div class="card-content">
         <div class="media">
           <div class="media-content">
             <p class="title is-4">
-              This is the story of a girl...who cried a river and drowned the
-              whole world
+              {post.description}
             </p>
           </div>
         </div>
