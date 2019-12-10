@@ -7,12 +7,17 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
 import TechIcons from "../components/tech-icons"
-import MainPagePostInfo from "../components/main-page-post-info"
 
-const IndexPage = () => <Layout>
-  <Hero/>
-  <TechIcons/>
-  <MainPagePostInfo/>
-</Layout>
+import ProjectHero from "../components/project-display.js/project-hero"
+
+const IndexPage = () => (
+  <Layout>
+    <Hero />
+    <TechIcons />
+    <ProjectHero></ProjectHero>
+    <ProjectHero></ProjectHero>
+    <ProjectHero></ProjectHero>
+  </Layout>
+)
 
 export default IndexPage
