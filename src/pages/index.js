@@ -14,9 +14,10 @@ const IndexPage = () => (
   <Layout>
     <Hero />
     <TechIcons />
-    <ProjectHero/>
-    <ProjectHero/>
-    <ProjectHero/>
+    <h1 className="project-title title is-1"> Projects</h1>
+    <ProjectHero />
+    <ProjectHero />
+    <ProjectHero />
   </Layout>
 )
 
