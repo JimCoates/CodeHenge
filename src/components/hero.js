@@ -26,7 +26,7 @@ const Hero = () => {
 }`)
 
   return (
-    <ImageBackground className="add-top-margin" fluid={image.sharp.fluid}>
+    <ImageBackground className="add-top-margin-medium" fluid={image.sharp.fluid}>
       <section className="hero is-medium">
         <div className="hero-body">
       <div className="container">
