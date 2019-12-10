@@ -1,6 +1,4 @@
 import React from "react"
-import ProjectCard from "./project-card"
-import SubTopicCard from "./sub-topic-card"
 
 const SubTopicContainer = ({posts}) => {
   return (
@@ -19,7 +17,7 @@ const SubTopicContainer = ({posts}) => {
               <p class="title">{posts[1].title}</p>
               <p class="subtitle">{posts[1].author}</p>
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png" />
+                <img src={posts[1].img} alt="no img available"/>
               </figure>
             </article>
           </div>
@@ -28,7 +26,7 @@ const SubTopicContainer = ({posts}) => {
               <p class="title">{posts[2].title}</p>
               <p class="subtitle">{posts[2].author}</p>
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png" />
+                <img src={posts[2].img} alt="no img available"/>
               </figure>
             </article>
           </div>

@@ -1,7 +1,6 @@
 import React from "react"
 import ProjectCard from "./project-card"
 import SubTopicContainer from "./sub-topic-card-container"
-import SubTopicIndividualContainer from "./sub-topic-individual"
 import useParentPosts from "../../hooks/use-parent-posts"
 import useChildPosts from "../../hooks/use-child-posts"
 

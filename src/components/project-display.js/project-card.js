@@ -1,13 +1,11 @@
 import React from "react"
-import temp from "../../images/stonehenge2.png"
-import ProjectHero from "./project-hero"
 
 const ProjectCard = ({post}) => {
   return (
     <div class="card">
       <div class="card-image is-marginless">
         <figure class="image is-4x3">
-          <img src={post.img} alt="Placeholder image" />
+          <img src={post.img} alt="Placeholder" />
         </figure>
       </div>
       <div class="card-content">
