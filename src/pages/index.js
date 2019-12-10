@@ -14,6 +14,8 @@ const IndexPage = () => (
     <Hero />
     <TechIcons />
     <ProjectHero></ProjectHero>
+    <ProjectHero></ProjectHero>
+    <ProjectHero></ProjectHero>
   </Layout>
 )
 
