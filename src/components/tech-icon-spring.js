@@ -1,17 +1,8 @@
-import React, { useState } from "react"
+import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
 const TechIconSpring = () => {
-
-  const [hover, setHover] = useState(false)
-
-  const handleMouseEnter = () => {
-    setHover( true );
-  }
-  const handleMouseLeave = () => {
-    setHover(false );
-  }
 
   const { image } = useStaticQuery(graphql`
   query {
@@ -24,7 +15,7 @@ const TechIconSpring = () => {
   }
 }`)
   return (
-    <div className="column is-one-third has-text-centered" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <div className="column is-one-third has-text-centered">
       <Img fixed={image.sharp.fixed}/>
     </div>
   )
