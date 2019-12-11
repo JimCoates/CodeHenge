@@ -43,7 +43,7 @@ $subtitle-color: #79b837;
 .project {
   padding-left: 2rem;
   padding-right: 2rem;
-  align-items: flex-start;
+  align-items: stretch;
   margin-bottom: 5rem !important;
 }
 
@@ -75,4 +75,17 @@ $subtitle-color: #79b837;
 
 .is-react-link {
   box-shadow: 0px 7px 24px -4px rgba(122, 122, 122, 0.54);
+}
+
+.card-sized {
+  height: 220px;
+  width: 250px;
+}
+
+.column-custom {
+  display: flex !important;
+}
+
+.vertical-center {
+  padding-top: 25%;
 }

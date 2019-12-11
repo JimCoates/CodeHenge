@@ -3,8 +3,8 @@ import React from "react"
 const ProjectCard = ({ post }) => {
   return (
     <div className="card">
-      <div className="card-image is-marginless">
-        <figure className="image is-4x3">
+      <div className="card-image">
+        <figure className="image ">
           <img src={post.img} alt="Placeholder" />
         </figure>
       </div>

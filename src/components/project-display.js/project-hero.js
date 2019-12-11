@@ -5,17 +5,16 @@ import useParentPosts from "../../hooks/use-parent-posts"
 import useChildPosts from "../../hooks/use-child-posts"
 
 const ProjectHero = () => {
-
-  const parentPosts = useParentPosts();
-  const childPosts = useChildPosts();
+  const parentPosts = useParentPosts()
+  const childPosts = useChildPosts()
 
   return (
     <div className="columns project">
-      <div className="column is-one-third">
-        <ProjectCard post={parentPosts[0]}/>
+      <div className="column is-one-third column-custom">
+        <ProjectCard post={parentPosts[0]} />
       </div>
-      <div className="column">
-        <SubTopicContainer posts={childPosts}/>
+      <div className="column column-custom">
+        <SubTopicContainer posts={childPosts} />
       </div>
     </div>
   )
