@@ -1,23 +1,21 @@
 import React from "react"
 
-const ProjectCard = ({post}) => {
+const ProjectCard = ({ post }) => {
   return (
-    <div class="card">
-      <div class="card-image is-marginless">
-        <figure class="image is-4x3">
+    <div className="card">
+      <div className="card-image is-marginless">
+        <figure className="image is-4x3">
           <img src={post.img} alt="Placeholder" />
         </figure>
       </div>
-      <div class="card-content">
-        <div class="media">
-          <div class="media-content">
-            <p class="title is-4">
-              {post.description}
-            </p>
+      <div className="card-content">
+        <div className="media">
+          <div className="media-content">
+            <p className="title is-4">{post.description}</p>
           </div>
         </div>
 
-        <div class="content">
+        <div className="content">
           And while she looked so sad in photographs I aboslutely lover her,
           when she smiles, when she smiles, Lorem ipsum dolor sit amet,
           <br />
