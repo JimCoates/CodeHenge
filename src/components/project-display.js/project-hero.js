@@ -4,14 +4,11 @@ import SubTopicContainer from "./sub-topic-card-container"
 import useParentPosts from "../../hooks/use-parent-posts"
 import useChildPosts from "../../hooks/use-child-posts"
 
-const ProjectHero = () => {
-  const parentPosts = useParentPosts()
-  const childPosts = useChildPosts()
-
+const ProjectHero = ({ project, childPosts }) => {
   return (
     <div className="columns project">
       <div className="column is-one-third column-custom">
-        <ProjectCard post={parentPosts[0]} />
+        <ProjectCard post={project} />
       </div>
       <div className="column column-custom">
         <SubTopicContainer posts={childPosts} />
