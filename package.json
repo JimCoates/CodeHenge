@@ -27,7 +27,7 @@
     "gatsby-plugin-sharp": "^2.3.4",
     "gatsby-source-filesystem": "^2.1.39",
     "gatsby-transformer-sharp": "^2.3.6",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "primeicons": "^2.0.0",
     "primereact": "^3.3.3",
     "prop-types": "^15.7.2",
